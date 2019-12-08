@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Binary.cs" />
+    <Compile Include="Decimals.cs" />
     <Compile Include="Subnet.cs" />
     <Compile Include="IPAddress.cs" />
     <Compile Include="NetworkingForm.cs">
@@ -58,6 +59,9 @@
     <Compile Include="Format.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="NetworkingForm.resx">
+      <DependentUpon>NetworkingForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

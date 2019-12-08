@@ -1,0 +1,10 @@
+C:\Users\DSU\Desktop\CSC 260\Project Proposal - Final Project\NetworkingCalculator\NetworkingCalculator\bin\Debug\NetworkingCalculator.exe.config
+C:\Users\DSU\Desktop\CSC 260\Project Proposal - Final Project\NetworkingCalculator\NetworkingCalculator\bin\Debug\NetworkingCalculator.exe
+C:\Users\DSU\Desktop\CSC 260\Project Proposal - Final Project\NetworkingCalculator\NetworkingCalculator\bin\Debug\NetworkingCalculator.pdb
+C:\Users\DSU\Desktop\CSC 260\Project Proposal - Final Project\NetworkingCalculator\NetworkingCalculator\obj\Debug\NetworkingCalculator.csprojAssemblyReference.cache
+C:\Users\DSU\Desktop\CSC 260\Project Proposal - Final Project\NetworkingCalculator\NetworkingCalculator\obj\Debug\NetworkingCalculator.NetworkingForm.resources
+C:\Users\DSU\Desktop\CSC 260\Project Proposal - Final Project\NetworkingCalculator\NetworkingCalculator\obj\Debug\NetworkingCalculator.Properties.Resources.resources
+C:\Users\DSU\Desktop\CSC 260\Project Proposal - Final Project\NetworkingCalculator\NetworkingCalculator\obj\Debug\NetworkingCalculator.csproj.GenerateResource.cache
+C:\Users\DSU\Desktop\CSC 260\Project Proposal - Final Project\NetworkingCalculator\NetworkingCalculator\obj\Debug\NetworkingCalculator.csproj.CoreCompileInputs.cache
+C:\Users\DSU\Desktop\CSC 260\Project Proposal - Final Project\NetworkingCalculator\NetworkingCalculator\obj\Debug\NetworkingCalculator.exe
+C:\Users\DSU\Desktop\CSC 260\Project Proposal - Final Project\NetworkingCalculator\NetworkingCalculator\obj\Debug\NetworkingCalculator.pdb
