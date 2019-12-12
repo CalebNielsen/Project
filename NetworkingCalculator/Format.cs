@@ -80,12 +80,6 @@ namespace NetworkingCalculator
 
         public static string[] getFormattedString(string SubnetID, string DecimalSubnet, string BroadCastAddress, string HostIdRange, int index, int length)
         {
-            //Host ID Range
-            //Decimal Subnet
-            //Broadcast Address
-            //Bits Stolen
-            //Total number of hosts
-
             string[] output = new string[3];
             string fmt = Convert.ToString(index);
             for (int a = 0; fmt.Length < length.ToString().Length; a++)
@@ -93,11 +87,8 @@ namespace NetworkingCalculator
             output[0] =  fmt + ":\t" + SubnetID + " (" + DecimalSubnet + ")";
 
             output[1] = "\t\t" + "Broadcast ID: " + BroadCastAddress;
-            //            output[1] = BroadCastAddress + HostIdRange;
 
             output[2] = "\t\t" + "Host Range: " + HostIdRange;
-//            output[2] = "\t\t" + "Stolen Bits: " + BitsStolen + " Number of Hosts:" + TotalNumberOfHosts;
-//            output[2] = "\t\t" + BitsStolen + TotalNumberOfHosts;
 
             return output;
         }

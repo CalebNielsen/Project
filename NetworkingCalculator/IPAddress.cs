@@ -27,6 +27,17 @@ namespace NetworkingCalculator
         }
 
         private string _address1;
+        protected string Address1
+        {
+            get
+            {
+                return _address1;
+            }
+            private set
+            {
+                _address1 = value;
+            }
+        }
         protected string _address2;
 
         public string subnetAddress;

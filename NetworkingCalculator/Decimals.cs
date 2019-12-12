@@ -15,6 +15,17 @@ namespace NetworkingCalculator
         }
 
         private string _binaryInput;
+        public string BinaryInput
+        {
+            get
+            {
+                return _binaryInput;
+            }
+            private set
+            {
+                _binaryInput = value;
+            }
+        }
         private string[] binaryArray;
 
         public string decimalIP;
@@ -42,7 +53,5 @@ namespace NetworkingCalculator
             }
             return number;
         }
-
-
     }
 }

@@ -14,17 +14,33 @@ namespace NetworkingCalculator
             _mask = mask;
             _subnets = subnets;
 
-            //converter = new Binary(IP);
-            //converter.convertToBinary();
-
             LogicalAndcalculate();
         } 
-        //Find log_2(number of subnets)
-        //Move that many bits out
-        //private Binary converter;
 
         private string _IP;
+        public string IP
+        {
+            get
+            {
+                return _IP;
+            }
+            private set
+            {
+                _IP = value;
+            }
+        }
         private string _mask;
+        public string Mask
+        {
+            get
+            {
+                return _mask;
+            }
+            private set
+            {
+                _mask = value;
+            }
+        }
         private int _subnets;
         private int _startingLocation;
         private int _byteSpace;
@@ -34,8 +50,6 @@ namespace NetworkingCalculator
         private string[] DecimalID;
         private string[] BroadcastID;
         private string[] HostRange;
-        private string[] StolenBits;
-        private string[] TotalHosts;
 
         public string[,] makeSubnets()
         {
@@ -45,8 +59,6 @@ namespace NetworkingCalculator
                 DecimalID = new string[_subnets];
                 BroadcastID = new string[_subnets];
                 HostRange = new string[_subnets];
-                StolenBits = new string[_subnets];
-                TotalHosts = new string[_subnets];
 
                 for (int i = 0; i < _subnets; i++)
                 {
@@ -71,7 +83,7 @@ namespace NetworkingCalculator
                     }
 
                     string[] temp = Format.getFormattedString(subnetArray[i,0], getDecimalSubnet(i), getBroadcast(i), getHostRange(i), i, _subnets); ;
-                    subnetArray[i, 0] = temp[0]; //Format.getFormattedString(subnetArray[i,0], i, _subnets);
+                    subnetArray[i, 0] = temp[0];
                     subnetArray[i, 1] = temp[1];
                     subnetArray[i, 2] = temp[2];
                 }
